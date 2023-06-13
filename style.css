@@ -1,0 +1,44 @@
+.portfolio{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.home{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 30% ;
+    height: 80vh;
+    margin-left: 10%;
+}
+.first{
+    margin: auto;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 80vh;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 80vh;
+}
+nav{
+    display: flex;
+    background-color: rgb(202, 199, 199);
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 30px;
+    float: left;
+}
+h1{
+    text-align: center;
+}
+.contact{
+    font-size: 20px;
+    color: black;
+}
