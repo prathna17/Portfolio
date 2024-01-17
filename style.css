@@ -19,26 +19,89 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     height: 80vh;
+    padding: 10px;
 }
 .skills-container{
     display: grid;
-    grid-template-columns: 40% 60%;
-    height: 80vh;
+    grid-template-columns: 50% 50%;
+    height: 120vh;
 }
 nav{
     display: flex;
-    background-color: rgb(202, 199, 199);
+    background-color: rgb(73, 69, 69);
+    position: -webkit-sticky;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 nav a{
     display: block;
     text-decoration: none;
     padding: 14px 30px;
     float: left;
+    color: blanchedalmond;
 }
 h1{
     text-align: center;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 .contact{
     font-size: 20px;
-    color: black;
+    color: blanchedalmond;
+}
+
+.python {width: 90%; background-color: #2196F3;}
+
+.java {width: 80%; background-color: #2196F3;}
+
+.dart {width: 50%; background-color: #2196F3;}
+
+.html {width: 80%; background-color: #2196F3;}
+
+.css {width: 70%; background-color: #2196F3;}
+
+.sql {width: 60%; background-color: #2196F3;}
+
+.lang-container {
+    width: 100%;
+    background-color: #ddd;
+}
+  
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 80vh;
+}
+h1, p, h2, li {
+    color: blanchedalmond;
+}
+
+.link {
+    color: rgb(82, 179, 179);
+}
+
+.btn {
+    background-color: rgb(11, 69, 128);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+  
+.btn:hover {
+    background-color: RoyalBlue;
 }
